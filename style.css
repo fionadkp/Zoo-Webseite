@@ -29,6 +29,7 @@ h6 {
     color: #007bff;
 }
 
+/* Textfarbe für die Beschreibung */
 p {
     color: #333;
     font-size: 1.1rem;
@@ -52,3 +53,96 @@ h2 {
 .card-text {
     color: #555;
 }
+
+/* Textfarbe für die Beschreibung */
+p {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+/* Textfarbe für die Überschriften */
+h1,
+h2 {
+    color: #007bff;
+}
+
+/* Farbe für die Liste */
+ul {
+    color: #555;
+}
+
+/* Farbe für die aktive Nav-Item */
+.nav-item.active .nav-link {
+    color: #007bff;
+}
+/* Textfarbe für die Beschreibung */
+p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+/* Textfarbe für die Überschrift */
+h1 {
+  color: #333;
+}
+
+/* Hintergrundfarbe für die aktive Navigationsleiste */
+.navbar .nav-item.active .nav-link {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Stil für die Fußzeile */
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Textfarbe für die Fußzeile */
+footer p {
+  color: #777;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* Stil für das Hervorheben von Text */
+.highlight {
+  background-color: #ffffcc;
+}
+
+/* Textfarbe für die Beschreibung */
+p {
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  /* Textfarbe für die Überschrift */
+  h1 {
+    color: #333;
+  }
+  
+  /* Hintergrundfarbe für die aktive Navigationsleiste */
+  .navbar .nav-item.active .nav-link {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Stil für die Fußzeile */
+  footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  /* Textfarbe für die Fußzeile */
+  footer p {
+    color: #777;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Stil für das Hervorheben von Text */
+  .highlight {
+    background-color: #ffffcc;
+  }
