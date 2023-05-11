@@ -1,6 +1,19 @@
-body {
-    background-image: url('https://files.albert-schweitzer-stiftung.de/1/Oktopus-Kraken_Vladimir-Wrangel_shutterstock.jpg');
-    background-size: cover;
+.Bild7 {
+   float: right;
+   width: 1000px;
+
+}
+
+.Bild8{
+float: right;
+width: 550px;
+}
+.Bild9{
+    float: right;
+    width: 100px;
+}
+.Bla{
+    color: white;
 }
 
 /* Jumbotron-Stil */
@@ -31,7 +44,7 @@ h6 {
 
 /* Textfarbe für die Beschreibung */
 p {
-    color: #333;
+    color: #000000;
     font-size: 1.1rem;
 }
 
@@ -51,12 +64,17 @@ h2 {
 }
 
 .card-text {
-    color: #555;
+    color: #000000;
+}
+
+.card-img-top {
+    height:  269px;
+    width: 253px;
 }
 
 /* Textfarbe für die Beschreibung */
 p {
-    color: #333;
+    color: #000000;
     font-size: 1.1rem;
 }
 
@@ -68,7 +86,7 @@ h2 {
 
 /* Farbe für die Liste */
 ul {
-    color: #555;
+    color: #000000;
 }
 
 /* Farbe für die aktive Nav-Item */
@@ -78,13 +96,13 @@ ul {
 
 /* Textfarbe für die Beschreibung */
 p {
-    color: #333;
+    color: #000000;
     font-size: 1.1rem;
 }
 
 /* Textfarbe für die Überschrift */
 h1 {
-    color: #333;
+    color: #000000;
 }
 
 /* Hintergrundfarbe für die aktive Navigationsleiste */
@@ -102,7 +120,7 @@ footer {
 
 /* Textfarbe für die Fußzeile */
 footer p {
-    color: #777;
+    color: #000000;
     font-size: 0.9rem;
     text-align: center;
 }
@@ -114,7 +132,7 @@ footer p {
 
 /* Textfarbe für die Beschreibung */
 p {
-    color: #333;
+    color: #000000;
     font-size: 1.1rem;
 }
 
@@ -138,7 +156,7 @@ footer {
 
 /* Textfarbe für die Fußzeile */
 footer p {
-    color: #777;
+    color: #000000;
     font-size: 0.9rem;
     text-align: center;
 }
@@ -154,9 +172,7 @@ footer p {
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 5px;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+    background: rgba(255, 255, 255, 0.5);
   }
   
   .opening-hours h3 {
@@ -171,13 +187,10 @@ footer p {
   }
 
   .entry-prices {
-    background-color: #f5f5f5;
+    background: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
-    position: absolute;
-    bottom: 8px;
-    left: 10px;
   }
   
   .entry-prices h2 {
@@ -189,16 +202,102 @@ footer p {
     font-size: 18px;
     margin-bottom: 5px;
   }
-  
-  .more-infos {
-    position: relative;
-  }
 
-  .more-infos h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
+.Bild1 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+    width: 400px;
+    display: block;
+    clear: right;
+}
 
-  .more-infos ul li {
-    text-decoration: underline;
-  }
+.Bild2 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: right;
+    width: 400px;
+    display: block;
+    clear: left;
+}
+
+.Bild3 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+    width: 400px;
+    display: block;
+    clear: right;
+}
+
+.Bild4 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: right;
+    width: 400px;
+    display: block;
+    clear: left;
+}
+
+.Bild5 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+    width: 400px;
+    display: block;
+    clear: right;
+}
+
+.Bild6 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: right;
+    width: 400px;
+    display: block;
+    clear: left;
+    
+}
+
+.Text1
+{
+    position: relative; 
+    top: 32px; 
+    left: -1.2px;
+}
+.Text2
+{
+    position: relative; 
+    top: 155px; 
+    right: 380px;  
+}
+
+.Text5
+{
+    position: relative; 
+    top: 145px; 
+    left: 20px;  
+}
+.Text3
+{
+    position: relative; 
+    top: 550px; 
+    left: 20px;
+}
+.Text4
+{
+    position: relative; 
+    top: 675px; 
+   
+}
