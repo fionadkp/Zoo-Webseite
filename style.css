@@ -1,62 +1,303 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Style the header */
-  header {
-    background-color: #666;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
+.Bild7 {
+   float: right;
+   width: 1000px;
+
+}
+
+.Bild8{
+float: right;
+width: 550px;
+}
+.Bild9{
+    float: right;
+    width: 100px;
+}
+.Bla{
     color: white;
-  }
-  
-  /* Create two columns/boxes that floats next to each other */
-  nav {
-    float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
-    padding: 20px;
-  }
-  
-  /* Style the list inside the menu */
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  article {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
-  }
-  
-  /* Clear floats after the columns */
-  section::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Style the footer */
-  footer {
-    background-color: #777;
-    padding: 10px;
+}
+
+/* Jumbotron-Stil */
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
-    color: white;
+}
+
+/* Container-Abstand */
+.container {
+    margin-top: 50px;
+}
+
+/* Überschriftenfarbe */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #007bff;
+}
+
+/* Hover-Link-Farbe */
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Textfarbe für die Beschreibung */
+p {
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+/* Textfarbe für die Überschriften */
+h1,
+h2 {
+    color: #007bff;
+}
+
+/* Farben für die Teammitglied-Karten */
+.card {
+    border-color: #007bff;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card-text {
+    color: #000000;
+}
+
+.card-img-top {
+    height:  269px;
+    width: 253px;
+}
+
+/* Textfarbe für die Beschreibung */
+p {
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+/* Textfarbe für die Überschriften */
+h1,
+h2 {
+    color: #007bff;
+}
+
+/* Farbe für die Liste */
+ul {
+    color: #000000;
+}
+
+/* Farbe für die aktive Nav-Item */
+.nav-item.active .nav-link {
+    color: #007bff;
+}
+
+/* Textfarbe für die Beschreibung */
+p {
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+/* Textfarbe für die Überschrift */
+h1 {
+    color: #000000;
+}
+
+/* Hintergrundfarbe für die aktive Navigationsleiste */
+.navbar .nav-item.active .nav-link {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Stil für die Fußzeile */
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Textfarbe für die Fußzeile */
+footer p {
+    color: #000000;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Stil für das Hervorheben von Text */
+.highlight {
+    background-color: #ffffcc;
+}
+
+/* Textfarbe für die Beschreibung */
+p {
+    color: #000000;
+    font-size: 1.1rem;
+}
+
+/* Textfarbe für die Überschrift */
+h1 {
+    color: #333;
+}
+
+/* Hintergrundfarbe für die aktive Navigationsleiste */
+.navbar .nav-item.active .nav-link {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Stil für die Fußzeile */
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Textfarbe für die Fußzeile */
+footer p {
+    color: #000000;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Stil für das Hervorheben von Text */
+.highlight {
+    background-color: #ffffcc;
+}
+
+/* Öffnungszeiten */
+.opening-hours {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
   }
   
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-  @media (max-width: 600px) {
-    nav, article {
-      width: 100%;
-      height: auto;
-    }
+  .opening-hours h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
   }
+  
+  .opening-hours ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .entry-prices {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .entry-prices h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .entry-prices p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+.Bild1 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+    width: 400px;
+    display: block;
+    clear: right;
+}
+
+.Bild2 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: right;
+    width: 400px;
+    display: block;
+    clear: left;
+}
+
+.Bild3 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+    width: 400px;
+    display: block;
+    clear: right;
+}
+
+.Bild4 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: right;
+    width: 400px;
+    display: block;
+    clear: left;
+}
+
+.Bild5 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: left;
+    width: 400px;
+    display: block;
+    clear: right;
+}
+
+.Bild6 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    float: right;
+    width: 400px;
+    display: block;
+    clear: left;
+    
+}
+
+.Text1
+{
+    position: relative; 
+    top: 32px; 
+    left: -1.2px;
+}
+.Text2
+{
+    position: relative; 
+    top: 155px; 
+    right: 380px;  
+}
+
+.Text5
+{
+    position: relative; 
+    top: 145px; 
+    left: 20px;  
+}
+.Text3
+{
+    position: relative; 
+    top: 550px; 
+    left: 20px;
+}
+.Text4
+{
+    position: relative; 
+    top: 675px; 
+   
+}
